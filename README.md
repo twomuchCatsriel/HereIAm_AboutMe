@@ -1,2 +1,2 @@
 # HereIAm_AboutMe
-school project // 08/18/2025
+school project // 08/18/2025 // NOR
