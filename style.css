@@ -3,6 +3,9 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     margin: 0;
+
+    background-image: url(images/space_background.gif);
+    background-size: 100%;
 }
 
 nav ul{
@@ -31,4 +34,22 @@ nav li a:hover{
 
 .main{
     text-align: center;
+}
+
+.outerContainer{
+    background-color: red;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.outerContainer img{
+    border-radius: 5px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
 }
