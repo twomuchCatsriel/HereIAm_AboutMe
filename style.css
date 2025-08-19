@@ -37,20 +37,15 @@ nav li a:hover{
 }
 
 .outerContainer{
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .outerContainer img{
     border-radius: 5px;
-}
-
-.left{
-    float: left;
-}
-
-.right{
-    float: right;
 }
 
 button{
@@ -68,16 +63,41 @@ p{
     padding: -0.5px;
 }
 
+.middleList{
+    list-style-position: inside;
+}
+
+#mid{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.quoteBox{
+    text-align: center;
+    width: 50%;
+
+    background-color: rgba(0,0, 0,0.5);
+
+    margin: 2% auto; 
+    border: solid white 2px;
+    padding: 10px;
+}
+
+.hidden{
+    display: none;
+}
+
 @media only screen and (max-width: 600px) {
     .outerContainer{
         width: 80%;
     }
 
     .left{
-    float: none;
+    float: npn;
     }
 
     .right{
-        float: none;
+        float: right;
     }
 }
