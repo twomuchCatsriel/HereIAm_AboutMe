@@ -96,17 +96,13 @@ p{
     background-color: rebeccapurple;
 }
 
+.newParagraph{
+    margin-top: 2%;
+}
+
 @media only screen and (max-width: 600px) {
     .outerContainer{
-        width: 95%;
-    }
-
-    .left{
-    float: npn;
-    }
-
-    .right{
-        float: right;
+        width: 90%;
     }
 
     .quoteBox{
@@ -115,5 +111,14 @@ p{
 
     #mid{
         width: 80%;
+    }
+
+    .newParagraph{
+        margin-top: 10%;
+    }
+
+    div{
+        width: 90%;
+        margin: 0 auto;
     }
 }
