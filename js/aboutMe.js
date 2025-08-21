@@ -59,6 +59,6 @@ document.addEventListener("DOMContentLoaded", () =>{
 
 function forceRickRoll(){
     setImage(true)
-
+    
     return "He is giving you up"; 
 }
