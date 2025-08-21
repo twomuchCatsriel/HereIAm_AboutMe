@@ -11,11 +11,9 @@ const minosImage = "images/breakingitdown.gif";
 const rickRoll = "images/rickroll.gif";
 
 function checkValue(){
-    let randomValue = Math.floor(Math.random() * 101) // 1 / 100 chance of loading Rick Astley instaed of Minos Prime when the page is loaded
+    let randomValue = Math.floor(Math.random() * 11) // 1 / 10 chance of loading Rick Astley instaed of Minos Prime when the page is loaded
     let currentState = false;
 
-    console.log(randomValue);
-    
     if (randomValue == 1){
         currentState = true;
     } 
@@ -27,9 +25,9 @@ function checkValue(){
     return currentState;
 }
 
-function setImage()
+function setImage(overrided)
 {
-    let state = checkValue()
+    let state = overrided || checkValue()
     
     if(state){
         minowos.src = rickRoll;
@@ -42,3 +40,9 @@ function setImage()
 document.addEventListener("DOMContentLoaded", () =>{
     setImage();
 })
+
+// Force Rickroll through command line
+
+function forceRickRoll(){
+    setImage(true)
+}
