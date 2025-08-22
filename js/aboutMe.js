@@ -46,7 +46,7 @@ function setImage(overrided)
 function setBackgroundImage(){ //1 / 1500 chance to rickroll the Background of the webpage lol
     if(checkValue(1501) == 1){
         document.querySelector("body").style.backgroundImage = "url(images/rickastleyBG.gif)"
-        document.querySelector("body").style.color = "black"
+        document.querySelector("body").style.color = "black" 
     }
 }
 
